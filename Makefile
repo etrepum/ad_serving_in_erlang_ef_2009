@@ -1,4 +1,4 @@
-OUTPUT=slides.html slides.pdf
+OUTPUT=index.html slides.html slides.pdf
 
 all: $(OUTPUT)
 
@@ -11,6 +11,9 @@ slides.latex: slides.txt ui/beamerdefs.txt ui/stylesheet.latex
 
 slides.pdf: slides.latex
 	pdflatex slides.latex
+
+index.html: slides.html
+	cp $< $@
 
 slides.html: slides.txt includes/*.html
 	rst2s5.py --theme-url ui/mochikit slides.txt $@
