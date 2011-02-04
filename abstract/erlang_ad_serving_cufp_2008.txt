@@ -1,0 +1,29 @@
+(I apologize in advance for submitting this past the deadline, but
+I've been rather busy the past few weeks and didn't have a chance to
+allocate the time)
+
+CUFP 2008 talk proposal: Ad Serving with Erlang
+By: Bob Ippolito, CTO/Founder Mochi Media, Inc.
+
+We've been using Erlang at Mochi Media since the 2006 launch of
+MochiAds, our advertising platform for Flash games. It's the first
+time any of us have done any production software with a functional
+programming language, and thus far it's turned out to be a great
+experience. The success of the MochiAds platform led us to writing
+many other products (internal and external) on the same technology
+stack. We believe Erlang to be one of the key reasons why we're able
+to develop more quickly and scale more easily than our competitors.
+
+For the talk I'd like to cover:
+
+ * Why Erlang? (distribution, concurrency, fault tolerance, ...)
+ * Mochi technology stack (hardware, open source, proprietary)
+ * Which parts aren't Erlang (management front-end, database, ...)
+ * Functional Ad Targeting (filtering, prng, in-memory db, etc.)
+ * Ad Serving Cheap Tricks (how to make it as stateless as possible)
+ * Targeting/Analytics Feedback Loop
+ * Lessons Learned (missteps)
+ * Other Erlang products at Mochi Media
+
+I can fit this talk into whatever time slot is available (25-45
+minutes), just let me know.

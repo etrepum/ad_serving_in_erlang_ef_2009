@@ -1,0 +1,6 @@
+\definecolor{rrblitbackground}{rgb}{0.0, 0.0, 0.0}
+
+\title[Ad Serving in Erlang]{Ad Serving in Erlang}
+\author[Bob Ippolito]{Bob Ippolito\\Mochi Media, Inc.}
+\institute[Erlang Factory Bay Area 2009]{Erlang Factory Bay Area 2009 - Palo Alto}
+\date{May 1, 2009}
